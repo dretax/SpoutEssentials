@@ -1,0 +1,145 @@
+name: SpoutEssentials
+main: me.skawke.spoutessentials.SpoutEssentials
+version: 4.0.2
+softdepend: [WorldGuard, PermissionsEx, SpoutPlugin, WorldEdit]
+commands:
+   spe:
+      description: Main
+   sky:
+      description: Main
+permissions:
+    spoutessentials.*:
+        description: Gives access to all spoutessentials commands
+        children:
+            spoutessentials.leavemessage: true
+            spoutessentials.joinmessage: true
+            spoutessentials.playmusic: true
+            spoutessentials.playgmusic: true
+            spoutessentials.stopmusic: true
+            spoutessentials.guiHELP: true
+            spoutessentials.capeadmin: true
+            spoutessentials.cape: true
+            spoutessentials.musicglobal: true
+            spoutessentials.musicglobal: true
+            spoutessentials.title: true
+            spoutessentials.reload: true
+            spoutessentials.bose.money: true     
+            spoutessentials.skyadmin: true
+            spoutessentials.titleadmin: true
+            spoutessentials.guiColumnOne: true
+            spoutessentials.guiColumnTwo: true
+            spoutessentials.guiColumnThree: true
+    spoutessentials.skyadmin:
+        description: Gives access to all sky commands
+        children:
+            spoutessentials.sunsize: true
+            spoutessentials.cloud: true
+            spoutessentials.cloudadmin: true
+            spoutessentials.sunadmin: true
+            spoutessentials.moonsize: true
+            spoutessentials.moonadmin: true
+            spoutessentials.stars: true
+            spoutessentials.starsadmin: true
+            spoutessentials.fogadmin: true
+            spoutessentials.moontextureadmin: true
+            spoutessentials.suntextureadmin: true
+    spoutessentials.bose:
+        description: Gives access to all sky commands
+        children:      
+            spoutessentials.bose.money: true
+    spoutessentials.leavemessage:
+        description: Leave message
+        default: true
+    spoutessentials.joinmessage:
+        description: Join message
+        default: op
+    spoutessentials.playmusic:
+        description: Play music
+        default: op
+    spoutessentials.playgmusic:
+        description: Globally playmusic
+        default: op
+    spoutessentials.stopmusic:
+        description: Stop music
+        default: op
+    spoutessentials.guiHELP:
+        description: View gui help
+        default: op
+    spoutessentials.sunsize:
+        description: View gui help
+        default: op
+    spoutessentials.cloud:
+        description: View gui help
+        default: op
+    spoutessentials.cloudadmin:
+        description: Allows use of sky admin commands
+        default: op
+    spoutessentials.sunadmin:
+        description: Allows use of sky admin commands
+        default: op
+    spoutessentials.moonsize:
+        description: Allows use of sky admin commands
+        default: op
+    spoutessentials.moonadmin:
+        description: Allows use of sky admin commands
+        default: op
+    spoutessentials.stars:
+        description: Allows use of sky admin commands
+        default: op
+    spoutessentials.starsadmin:
+        description: Allows use of sky admin commands
+        default: op
+    spoutessentials.fogadmin:
+        description: Allows use of sky admin commands
+        default: op
+    spoutessentials.capeadmin:
+        description: Changes a player's cape
+        default: op
+    spoutessentials.music:
+        description: Play minecraft music
+        default: op
+    spoutessentials.musicglobal:
+        description: Play minecraft music
+        default: op
+    spoutessentials.title:
+        description: Set their own name
+        default: op
+    spoutessentials.cape:
+        description: Set their own cape
+        default: op
+    spoutessentials.reload:
+        description: Reload the plugin
+        default: op
+    spoutessentials.bose.money:
+        description: Bose plugin
+        default: op
+    spoutessentials.groupskin1:
+        description: skin for group 1
+        default: op
+    spoutessentials.groupskin2:
+        description: skin for group 2
+        default: op
+    spoutessentials.groupskin3:
+        description: skin for group 3
+        default: op
+    spoutessentials.groupskin4:
+        description: skin for group 4
+        default: op
+    spoutessentials.suntextureadmin:
+        description: skin for group 4
+        default: op
+    spoutessentials.moontextureadmin:
+        description: skin for group 4
+        default: op
+    spoutessentials.titleadmin:
+        description: change other title's
+        default: op    
+    spoutessentials.guiColumnOne:
+        description: Show GUI column 1
+        default: op  
+    spoutessentials.guiColumnTwo:
+        description: Show GUI column 2
+        default: op 
+    spoutessentials.guiColumnThree:
+        description: Show GUI column 3
+        default: op              

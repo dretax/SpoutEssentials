@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/imports/PermissionsEx.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/imports/WorldGuard.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/imports/WorldEdit.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/imports/SpoutPlugin.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/testing2/craftbukkit-1.5.2-R0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
